@@ -1,0 +1,161 @@
+{
+    "root": {
+        "data": {
+            "id": "d4bzpbz2trc0",
+            "created": 1726924667249,
+            "text": "Weathery"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4bzpfgab080",
+                    "created": 1726924674820,
+                    "text": "View: Welcome",
+                    "background": "#d6e3bc"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bzqf119lc0",
+                            "created": 1726924752262,
+                            "text": "Carrega Form,js"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bzrx18lgg0",
+                                    "created": 1726924869820,
+                                    "text": "Componentes de display"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4bzs3wow280",
+                                    "created": 1726924884783,
+                                    "text": "Componente De busca Weatherstack"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bztilw2ds0",
+                                            "created": 1726924995146,
+                                            "text": "Route: ExternalController"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4bzt143rk00",
+                                    "created": 1726924957065,
+                                    "text": "Componente de busca CepOnline"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bzqnudoaw0",
+                            "created": 1726924771451,
+                            "text": "Realiza busca no WeatherStack"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4bzr1bvajk0",
+                            "created": 1726924800806,
+                            "text": "Usuário Logado"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bzrgxglkg0",
+                                    "created": 1726924834764,
+                                    "text": "Pode salvar busca"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bzrnxha0o0",
+                            "created": 1726924850002,
+                            "text": "Usuário não Logado"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bzrsk3i3c0",
+                                    "created": 1726924860077,
+                                    "text": "Não pode salvar busca"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bzur9mfd40",
+                    "created": 1726925092359,
+                    "text": "View: Home",
+                    "background": "#e5b8b7"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bzv3naxow0",
+                            "created": 1726925119308,
+                            "text": "Mostra minhas buscas salvas"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4c02chz5p40",
+                            "created": 1726925687126,
+                            "text": "Permite Comparar buscas"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4c02gtgqrs0",
+                                    "created": 1726925696528,
+                                    "text": "topic"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bztcvlx080",
+                    "created": 1726924982673,
+                    "text": "View: Login",
+                    "background": "#d6e3bc"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4bzul7l68w0",
+                    "created": 1726925079176,
+                    "text": "View: Register",
+                    "background": "#d6e3bc"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

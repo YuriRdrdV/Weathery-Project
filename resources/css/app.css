@@ -1,0 +1,191 @@
+.background {
+    background-image: linear-gradient(254deg, #F69B29, #740FB7) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    height: 100vh !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    background-image: linear-gradient(254deg, #F69B29, #8622a3) !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.principal {
+    background-color: white;
+    height: 100vh !important;
+}
+
+.pageTitle {
+    font-size: 10px;
+    color: rgb(70, 70, 70);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+main {
+    margin-top: 110px !important;
+}
+
+.wlabel {
+    display: block;
+    background-image: linear-gradient(90deg, #8e2b9a, #F69B29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wInput {
+    color: rgb(68, 68, 68);
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, #8e2b9a, #F69B29);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    outline: none;
+    font-size: 16px;
+}
+
+.wInput:focus {
+    border-color: transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, #8e2b9a, #F69B29);
+    background-clip: padding-box, border-box;
+}
+
+.wBtn {
+    width: 200px;
+    background-image: linear-gradient(254deg, #8e2b9a, #F69B29);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.wErrorMsg {
+    margin-top: 15px;
+    color: white;
+    background-color: #dd6d5d;
+}
+
+.wBtn:hover {
+    background-image: linear-gradient(254deg, #740FB7, #F69B29);
+
+}
+
+.logo {
+    height: 167px;
+    margin-top: 90px;
+    margin-left: 77px;
+}
+
+.logo-mini {
+    height: 31px;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 40px !important;
+    }
+
+    .logo {
+        height: 88px !important;
+        margin-top: 89px !important;
+        margin-left: 24px !important;
+    }
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.wdropdown {
+    background-color: #ffffff00 !important;
+    border-color: transparent !important;
+}
+
+.wdropdownItem:active {
+    background-color: #740FB7 !important;
+    border-radius: 20px;
+    color: white;
+}
+
+.wdropdownItem {
+    border-radius: 20px;
+    background-color: #4949495b !important;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.weatherIcon {
+    border-radius: 50%;
+    width: 55px;
+}
+
+.weatherIconSearch {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    width: 122px;
+    margin-top: -28px;
+    margin-right: -28px;
+}
+
+.action {
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: #740FB7;
+    background-size: cover !important;
+    color: white;
+}
+
+.action i {
+    color: black;
+    transition: color 0.3s;
+}
+
+.action:hover i {
+    color: white !important;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
