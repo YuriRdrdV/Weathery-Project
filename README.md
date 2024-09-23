@@ -2,6 +2,40 @@
 
 Sistema para busca de dados climaticos por região para comparações.
 
+## Instalação
+
+Antes de iniciar a instalação são necessários os seguintes requisitos:
+
+1. **PHP**: Versão 8.2.18 ou superior.
+2. **Composer**: Gerenciador de dependências do PHP. Você pode instalá-lo seguindo as instruções em [getcomposer.org](https://getcomposer.org/download/).
+3. **Servidor Web**: Apache2.
+4. **Banco de Dados**: MySQL.
+5. **Git**: Para clonar o repositório.
+
+(Pode ser utilizado o Wamp para as configurações)
+
+Clone o repositório da sua aplicação usando o Git:
+
+git clone https://github.com/YuriRdrdV/Weathery-Project
+
+cd weathery
+
+composer install
+
+cp .env.example .env
+
+adicionar os valores do database e chave para o weatherstack:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=usuario
+DB_PASSWORD=senha
+weatherKey=key
+
+php artisan migrate
+
+php artisan serve
 
 ## Funcionalidades
 
@@ -11,8 +45,8 @@ Sistema para busca de dados climaticos por região para comparações.
 
 ## Tecnologias Utilizadas
 
-- Linguagem: `JavaScript`, `PHP`
-- Frameworks: `Laravel`, `Jquery`
+- Linguagem: `JavaScript`, `PHP 8.2.18`
+- Frameworks: `Laravel 11.9`, `Jquery`
 - Banco de Dados: `MySQL`
 
 O projeto se inicia no front onde foi implementada uma interface de acesso geral para realizar as buscas essa interface possui o suporte de JavaScript + Jquery. Estes separados em componentes com responsabilidades individuais tratam o formulário de busca do clima que conversa via AJAX com o backend do laravel para retornar a resposta da API do WeatherStack.
